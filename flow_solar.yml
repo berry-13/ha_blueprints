@@ -11,11 +11,7 @@ blueprint:
       name: AWTRIX Device
       description: Select the Awtrix light device
       selector:
-        device:
-          integration: mqtt
-          manufacturer: Blueforcer
-          model: AWTRIX Light
-          multiple: true
+        device
     power_source:
       name: Power Sensor
       description: A sensor providing the current power received from your solar system.
